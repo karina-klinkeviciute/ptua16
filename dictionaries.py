@@ -54,9 +54,13 @@ user_info = {
     "occupation": {
        "role": "Professor",
        "workplaces": ["University of Berlin", "University of Washington"]
+        
     },
-    "languages": ["German", "Latin", "Italian", "English", "French"],
+    "languages": ["German", "Latin", "Italian", ("English", "British"), ("English", "American"), "French"],
 }
+
+for language in user_info['languages']:
+    print(language)
 
 print(user_info["occupation"]["role"])
 
