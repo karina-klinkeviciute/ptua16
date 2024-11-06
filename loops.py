@@ -45,3 +45,15 @@ for a in range(1, n + 1):
         print("*", end="")
     print()
 
+size = int(input("Enter the triangle size: "))
+
+for i in range(1, size + 1):
+    for j in range(1, i + 1):
+        print(j, end=" ")
+        # print(j)
+    print()
+
+
+# print(1, 2, "hello", 1.5)
+# 
+# print(1, 2)

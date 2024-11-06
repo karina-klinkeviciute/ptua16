@@ -42,37 +42,37 @@ print(c)
 
 letter = "a"
 
-name = "Code academy!!!"
+new_name = "Code academy!!!"
 
-print(name[0])
+print(new_name[0])
 
-print(name[1])
+print(new_name[1])
 
-print(name[4])
+print(new_name[4])
 
-print(name[-1])
-print(name[-2])
-print(name[5:12])
+print(new_name[-1])
+print(new_name[-2])
+print(new_name[5:12])
 
-print(name[5:])
+print(new_name[5:])
 
-print(name[:5])
+print(new_name[:5])
 
-print(name[1:12:2])
+print(new_name[1:12:2])
 
-print(name[5::2])
+print(new_name[5::2])
 
-print(name[::-1])
+print(new_name[::-1])
 
-print(name.split())
+print(new_name.split())
 
-print(name.upper())
-print(name.lower())
-print(name.title())
+print(new_name.upper())
+print(new_name.lower())
+print(new_name.title())
 
-print(name.replace("C", "k"))
+print(new_name.replace("C", "k"))
 
-print(name.replace("Code", "Music"))
+print(new_name.replace("Code", "Music"))
 
 word1 = "Code"
 
