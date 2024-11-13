@@ -14,8 +14,6 @@ def can_find(letters: list[str], words: list[str]) -> bool:
     return True
 
 
-
-
 # this should return True
 print(can_find(["a", "b", "t", "u"], ["beautiful", "the", "hat"]))
 
@@ -29,3 +27,6 @@ print(can_find(["a", "b", "t", "k"], ["beautiful", "the", "hat"]))
 def can_find2(letters, words):
     return all(any(letter in word for word in words) for letter in letters)
 
+
+def add(a: int, b: int) -> int:
+    pass
