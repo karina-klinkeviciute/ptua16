@@ -15,11 +15,12 @@ def can_find(letters: list[str], words: list[str]) -> bool:
 
 
 # this should return True
-print(can_find(["a", "b", "t", "u"], ["beautiful", "the", "hat"]))
+if __name__ == '__main__':
+    print(can_find(["a", "b", "t", "u"], ["beautiful", "the", "hat"]))
 
-print(can_find(["a", "b", "t", "u"], []))
+    print(can_find(["a", "b", "t", "u"], []))
 
-print(can_find(["a", "b", "t", "k"], ["beautiful", "the", "hat"]))
+    print(can_find(["a", "b", "t", "k"], ["beautiful", "the", "hat"]))
 
 # Condition: all letters at least once in any of the words
 

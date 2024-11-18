@@ -1,5 +1,7 @@
 from pprint import pprint
 
+# if __name__ == "__main__":
+
 a_dict = {'a': 1, 'b': 45, 'c': 3}
 
 print(a_dict['a'])
@@ -49,32 +51,32 @@ del a_dict['c']
 print(a_dict)
 
 user_info = {
-    "name": "Albert",
-    "surname": "Einstein",
-    "occupation": {
-       "role": "Professor",
-       "workplaces": ["University of Berlin", "University of Washington"]
-        
-    },
-    "languages": ["German", "Latin", "Italian", ("English", "British"), ("English", "American"), "French"],
+"name": "Albert",
+"surname": "Einstein",
+"occupation": {
+   "role": "Professor",
+   "workplaces": ["University of Berlin", "University of Washington"]
+
+},
+"languages": ["German", "Latin", "Italian", ("English", "British"), ("English", "American"), "French"],
 }
 
-for language in user_info['languages']:
-    print(language)
-
-print(user_info["occupation"]["role"])
-
-for a in a_dict:
-    print(a)
-
-for a in a_dict.values():
-    print(a)
-
-for a in a_dict.keys():
-    print(a)
-
-for key, value in a_dict.items():
-    print(f"value for {key} is {value}")
+# for language in user_info['languages']:
+# print(language)
+#
+# print(user_info["occupation"]["role"])
+#
+# for a in a_dict:
+# print(a)
+#
+# for a in a_dict.values():
+# print(a)
+#
+# for a in a_dict.keys():
+# print(a)
+#
+# for key, value in a_dict.items():
+# print(f"value for {key} is {value}")
 
 a_dict.update(user_info)
 
