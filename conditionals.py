@@ -89,3 +89,7 @@ if not s2 == "c":
     print("not c")
 
 
+def check_positive(number):
+    if number > 0:
+        return True
+    return False
