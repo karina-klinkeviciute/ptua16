@@ -90,6 +90,7 @@ if not s2 == "c":
 
 
 def check_positive(number):
+    """check if number is positive"""
     if number > 0:
         return True
     return False
