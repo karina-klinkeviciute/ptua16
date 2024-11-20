@@ -29,7 +29,7 @@ else:
 a = 200
 b = 400
 c = 500
-# DRY - do not repeat yourself
+
 if c > a and c > b:
     print("C is the greatest of them all!")
 
@@ -91,6 +91,6 @@ if not s2 == "c":
 
 def check_positive(number):
     """check if number is positive"""
-    if number > 0:
+    if number >= 0:
         return True
     return False
