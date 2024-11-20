@@ -95,3 +95,9 @@ def check_positive(number):
         # if it's more than zeoro or zero, it's cosidered positive
         return True
     return False
+
+
+def check_negative(number):
+    if number < 0:
+        return True
+    return False
