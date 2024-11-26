@@ -59,7 +59,7 @@ if x > 10:
     print("Above 10 ")
     if x > 20:
         pass
-        # print("and above 20!")
+        print("and above 20!")
     else:
         print("but bellow 20!")
 
