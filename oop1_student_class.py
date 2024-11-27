@@ -8,7 +8,7 @@ class Student:
         self.first_name = first_name
         self.last_name = last_name
         self.year = year
-        self.grades: list = []
+        self._grades: list = []
         self.subjects: list[Subject] = []
 
     def greet(self):
@@ -17,10 +17,19 @@ class Student:
     def add_grade(self, grade: int):
         if grade > 10:
             raise ValueError('Grade must be less than or equal to 10')
-        self.grades.append(grade)
+        self._grades.append(grade)
+
+    def get_grades(self):
+        return self._grades
+
+    def __grades_sum(self):
+        return sum(self._grades)
+
+    def _grades_count(self):
+        return len(self._grades)
 
     def average(self) -> float:
-        return sum(self.grades)/len(self.grades)
+        return self.__grades_sum()/self._grades_count()
 
     def add_course(self, subject: Subject):
         if len(self.subjects) == 6:

@@ -27,15 +27,15 @@ john.add_course(subjects["science"])
 # john.add_course(subjects["psychology"])
 
 
-john.grades = [1, 5, 6, 7, 9]
+john._grades = [1, 5, 6, 7, 9]
 
-print(john.grades)
+print(john._grades)
 
-john.grades.append(2)
+john._grades.append(2)
 
 john.add_grade(10)
 
-print(john.grades)
+print(john._grades)
 
 # john.add_grade(15)
 
@@ -44,3 +44,14 @@ print(john.average())
 for subject in john.subjects:
     print(subject.name)
 
+john._grades.append(15)
+
+print(john._grades)
+
+print(john.get_grades())
+
+print(john.average())
+
+print(john._grades_count())
+
+print(john._Student__grades_sum())
